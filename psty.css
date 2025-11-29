@@ -1,0 +1,45 @@
+body{
+    border:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(177, 180, 183);
+}
+header {
+    background-color: rgb(20, 19, 19);
+    padding: 15px 20px;
+    color: aliceblue;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    color: aliceblue;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    
+    padding: 20px;
+}
+.box{
+    background-color:white;
+    font-size: medium;
+    box-shadow: 25px black;
+   width: 350px;
+   height:380px;
+    text-align: center;
+    
+    
+}
+
+.box button{
+    background-color: rgb(126, 158, 78);
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    
+}

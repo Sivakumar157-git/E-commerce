@@ -1,0 +1,25 @@
+bbody{
+    background-color: aquamarine;
+    border: 0;
+    
+}
+table{
+    background-color: azure;
+    
+    color: black;
+    padding: 30px;
+    align-items: center;
+    font-size: x-large;
+    height: 250px;
+}
+h1{
+    color: rgb(9, 9, 8);
+}
+.btn{
+    background-color: rgb(155, 200, 18);
+    padding: 10px;
+    text-decoration: none;
+    color: red;
+    border-radius: 5px;
+
+}

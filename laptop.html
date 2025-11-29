@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="psty.css">
+</head>
+<body>
+     <header>
+        <h1>🛍 MyShop</h1>
+    
+    
+    <nav>
+       <a href="i ndex.htm">HOME</a>
+        <a href="product2.html">Phones</a>
+        <a href="laptop.html">Laptops</a>
+        <a href="product.html">Watches</a>
+        <a href="cart.html">CART</a>
+    </nav>
+    </header>
+    <section class="container">
+        <div class="box">
+            <img src="lap2.jpg" width="350" height="210">
+            <h3>Asus Vivobook</h3>
+            <p>$650</p>
+           <button onclick="addToCart('Asus Vivobook',650)">ADD TO CART</button></div>
+        <div class="box"><img src="img3.jpg"width="350"hight="350">
+            <h3>Intel Linux</h3>
+            <p>$3650</p>
+           <button onclick="addToCart('Intel Linux',3650)">ADD TO CART</button></div>
+        <div class="box"><img src="lap3.jpg"width="250"hight="200">
+            <h3>Dell 98vr</h3>
+            <p>$1050</p>
+            <button onclick="addToCart('Dell 98vr',1050)">ADD TO CART</button></div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

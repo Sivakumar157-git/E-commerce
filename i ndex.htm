@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="user-display"></div>
+        <h1>🛍 MyShop</h1>
+
+    
+    <nav>
+        <a href="i ndex.htm">HOME</a>
+        <a href="product2.html">Phones</a>
+        <a href="laptop.html">Laptops</a>
+        <a href="product.html">Watches</a>
+        <a href="cart.html">CART</a>
+            <a href="login.html">Login</a>
+    </nav>
+    </header>
+    <section class="main">
+     <h4>Welcome to my shop!</h4>
+     <p>finf the best deals on top products</p>
+     <a href="product2.html"class="btn" ><b>Shop Me</b></a>
+    </section>
+    <section class="highlights">
+        <h2>Why Choose Us?</h2>
+        <ul>
+            <li>✓High Quality Products</li> 
+            <li>✓Best Price Guarantee</li>
+            <li>✓fast& Secure Delivery</li>
+            <li>✓24/7 Customer Service</li>
+        </ul>
+    </section>
+    <footer>
+        <p>year 2025 myshop all rights reserved</p>
+    </footer>
+    <script>
+        document.getElementById('highlights').onmouseover=f1;
+        document.getElementById('highlights').onmouseleave=f2;
+        document.getElementById('highlights').onclick=f3;
+        function f1(event){
+            this.style.color="red";
+           
+
+        }
+        function f3(event){
+              this.style.backgroundcolor= "yellow";
+        }
+        function f2(event){
+            this.style.color="green";
+
+        }
+    </Script>
+    <script>
+        let user = localStorage.getItem("loginusername");
+        if(user){
+            document.getElementById("user-display").innerText = "Welcome : " + user;
+        }
+    </script>
+    
+</body>
+</html>
